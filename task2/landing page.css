@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(126, 213, 247);
+    background: linear-gradient(to bottom, white 75%, skyblue);
+    padding: 45px;
+
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0px 20px;
+    border-radius: 10px;
+    background-image: url("../ashuu/camp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 20px 20px 40px 10px #353434;
+}
+
+.nav {
+    display: flex;
+    margin-left: 70px;
+}
+
+.nav img {
+    height: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 40px;
+    padding: 15px 7px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 800;
+}
+
+.nav .login {
+    padding: 15px 7px;
+    margin-left: 200px;
+}
+
+.login button {
+    margin: 0px 5px;
+    padding: 10px 30px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+}
+
+.text {
+    margin-top: 100px;
+    color: white;
+    padding: 70px 50px;
+}
+
+.text1 h1 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+.text1 h2 {
+    font-size: 40px;
+    word-spacing: 3px;
+    margin: 15px 0px;
+    font-family: 'Courgette', cursive;
+    font-weight: 400;
+}
+
+.text1 p {
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.btn button {
+    margin-top: 30px;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: linear-gradient(-35deg, #711e2e, #ed1c24, #e7792a, #e0a10d);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 16px 10px 50px 0px #e7792a;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.btn button:hover {
+    box-shadow: 0 0 5px #711e2e,
+        0 0 25px #ed1c24,
+        0 0 50px #e7792a,
+        0 0 100px #e0a10d;
+}
